@@ -1,0 +1,212 @@
+
+.header {
+  margin-bottom: 0 !important;
+}
+.footer-contact {
+  margin-bottom: -0.85rem !important;
+}
+.text-with-line {
+      display: flex;
+      align-items: center; /* Align text and line vertically */
+    }
+
+    .text-with-line::after {
+      content: '';
+      flex-grow: 1; /* Makes the line extend to fill the remaining space */
+      height: 0.5px; /* Line thickness */
+      background-color: black; /* Line color */
+      margin-left: 10px; /* Spacing between text and line */
+    }
+        .list-with-line {
+      position: relative;
+      padding-left: 20px; /* Spacing between line and list items */
+    }
+
+    .list-with-line::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 0.5px; /* Line thickness */
+      background-color: black; /* Line color */
+    }
+header {
+            background-color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+        header .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .donate-btn {
+            background-color: #e6187e;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+.index-banner-img {
+  background-image: url("../assets/images/index_banner.png");
+}
+.footer-list-header{
+  font-weight: bold !important;
+  margin-bottom: 20px;
+}
+.bold-text{
+  font-weight: bold !important;
+}
+
+.donate-container{
+  width: 90% !important;
+}
+.footer-container{
+  width: 60% !important;
+}
+.donate-container-img {
+  background-image: url("../assets/images/Donation_BG.png");
+  padding: 90px 0;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.center-text {
+  text-align: center;
+  vertical-align: middle;
+}
+@media only screen and (min-width: 601px) {
+  .height-on-med-and-up {
+    height: 43rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.white {
+  background-color: #ffffff !important;
+}
+
+
+footer.page-footer {
+  margin: 0;
+  padding-top: 80px; !important
+}
+.footer-list-items{
+  line-height: 30px !important;
+}
+.footer-img{
+max-width: 500px;
+}
+.inline-icon {
+  vertical-align: middle;
+}
+.jsf-blue {
+  background-color: #06425b;
+}
+.footer-copyright{
+  background-color: #05394f !important;
+}
+.jsf-blue-text {
+  color: #06425b !important;
+}
+.section-subtitle {
+  font-size: 40px !important;
+  font-weight: 800;
+  margin: 1% 0;
+}
+.section-heading {
+  color: #000000;
+  font-weight: 450;
+  font-size: 100%;
+}
+.black-text {
+  color: #000000;
+}
+.roboto {
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal !important;
+}
+.white-text {
+  opacity: 85%;
+  color: #ffffff !important;
+}
+.body-text {
+  color: #000000;
+  opacity: 50%;
+  line-height: 28px;
+  margin: 0 !important;
+}
+
+a:hover {
+  text-decoration: underline solid Currentcolor;
+}
+
+.supporters img {
+            max-width: 100px;
+            margin: 0 10px;
+        }
+.btn-link {
+  margin-top: 20px;
+            background-color: #007BFF;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 550;
+        }
+        .btn-blue{
+          background-color: #28526f !important;
+          color: #FFFFFF !important;
+        }
+        .btn-pink{
+          background-color: #fef3f4;
+          color: #000000 !important; 
+        }
+.hidden {
+  display: none;
+}
+.pink-background {
+  background-color: #fef3f4;
+}
+.container-padding {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.about-us-image-container {
+  margin-top: 2%;
+}
+.about-us-image {
+  max-width: 100%;
+  float: left;
+}
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  align-items: center;
+}
+.image-item{ flex: 1 1 15rem; max-width: 15rem; }
+
