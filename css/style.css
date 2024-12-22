@@ -105,6 +105,9 @@ header {
   #index-banner .section {
     top: 0;
   }
+  .hide-nav{
+    display: none;
+  }
 }
 .white {
   background-color: #ffffff !important;
