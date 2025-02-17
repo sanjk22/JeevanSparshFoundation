@@ -1,0 +1,78 @@
+.causes-gallery{
+  height: 22.5rem;
+  width: 27.25rem;
+  border-radius: 7px;
+}
+.li-heading{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul.causes-text {
+    list-style: none; /* Remove default bullets */
+    padding-left: 30px;
+}
+
+ul.causes-text li {
+    position: relative;
+    padding-left: 40px; /* Space for the icon */
+    margin-bottom: 10px;
+}
+
+ul.causes-text li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px; /* Adjust vertical alignment */
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Different images for each list item */
+ul.causes-text li:nth-child(1)::before {
+    background-image: url('../assets/bullet_point_icon/Education_Icon.png'); 
+}
+
+ul.causes-text li:nth-child(2)::before {
+    background-image: url('../assets/bullet_point_icon/Healthcare_Icon.png'); 
+}
+
+
+.education-bg {
+  background-image: url("../assets/causes/Education.png");
+}
+.sanitation-bg {
+  background-image: url("../assets/causes/Sanitation.png");
+}
+.disaster-relief-bg {
+  background-image: url("../assets/causes/Disaster_Relief.png");
+}
+.environment-bg {
+  background-image: url("../assets/causes/Environment.png");
+}
+.healthcare-bg {
+  background-image: url("../assets/causes/Healthcare.png");
+}
+.livelihood-bg {
+  background-image: url("../assets/causes/Livelihood.png");
+}
+.water-bg {
+  background-image: url("../assets/causes/Water.png");
+}
+
+.causes-banner-img {
+  background-image: url("../assets/images/causes_banner.png");
+  height: 28rem;
+  vertical-align: middle;
+}
+.center-padding{
+padding: 10%;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+}
