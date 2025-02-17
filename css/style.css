@@ -92,16 +92,6 @@ header {
 .index-banner-img {
   background-image: url("../assets/images/index_banner.png");
 }
-.media-banner-img {
-  background-image: url("../assets/images/media_banner.png");
-  height: 33rem;
-}
-
-
-.about-us-banner-img {
-  background-image: url("../assets/images/About_Us_Banner.png");
-  height: 30rem;
-}
 .footer-list-header{
   font-weight: bold !important;
   margin-bottom: 20px;
